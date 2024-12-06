@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner scanner=new Scanner(System.in);
+        
+        System.out.println("enter the first numbers: ");
+        int num1=scanner.nextInt();
+        
+        System.out.println("enter the second numbers: ");
+        int num2=scanner.nextInt();
+        int sum=num1 + num2;
+        System.out.println("the sum of num 1 "+ " " + " and "+ " the sum of num 2 " + " " + " is " + sum);
+        scanner.close();
+    }
+output: enter the first numbers: 
+2
+enter the second numbers: 
+3
+the sum of num 1   and  the sum of num 2   is 5
